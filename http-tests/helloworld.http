@@ -1,0 +1,12 @@
+GET http://localhost:8085/ HTTP/1.1
+
+### GET MESSAGE
+GET http://localhost:8085/1 HTTP/1.1
+
+
+### NEW MESSAGE
+POST http://localhost:8085/1 HTTP/1.1
+
+{
+  "message": "Test message"
+}
