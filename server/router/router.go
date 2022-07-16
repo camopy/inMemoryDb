@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/camopy/mosaico/server/app"
+	"github.com/camopy/in-memory-db/server/app"
 	"github.com/go-chi/chi"
 )
 

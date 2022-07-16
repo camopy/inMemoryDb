@@ -1,6 +1,6 @@
 package app
 
-import "github.com/camopy/mosaico/adapter/db"
+import "github.com/camopy/in-memory-db/adapter/db"
 
 type App struct {
 	db db.DB

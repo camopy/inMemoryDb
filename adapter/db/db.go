@@ -1,6 +1,6 @@
 package db
 
-import inmemory "github.com/camopy/mosaico/adapter/db/inMemory"
+import inmemory "github.com/camopy/in-memory-db/adapter/db/inMemory"
 
 type DB interface {
 	Get(id uint64) (string, error)

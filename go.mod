@@ -1,4 +1,4 @@
-module github.com/camopy/mosaico
+module github.com/camopy/in-memory-db
 
 go 1.18
 

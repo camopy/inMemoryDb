@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/camopy/mosaico/adapter/db"
-	"github.com/camopy/mosaico/server/app"
-	"github.com/camopy/mosaico/server/router"
+	"github.com/camopy/in-memory-db/adapter/db"
+	"github.com/camopy/in-memory-db/server/app"
+	"github.com/camopy/in-memory-db/server/router"
 )
 
 func main() {
